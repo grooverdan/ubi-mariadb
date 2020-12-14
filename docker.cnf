@@ -1,0 +1,7 @@
+[mariadb]
+skip-host-cache
+skip-name-resolve
+
+# compat with Ubuntu LTS based images
+!includedir /etc/mysql/conf.d/
+!includedir /etc/mysql/mariadb.conf.d/

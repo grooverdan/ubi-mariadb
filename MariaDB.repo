@@ -1,0 +1,8 @@
+# MariaDB 10.5 RedHat repository list - created  UTC
+# https://mariadb.org/download/
+[mariadb]
+name = MariaDB
+baseurl = https://mirror.realcompute.io/mariadb/yum/10.5/rhel8-amd64
+module_hotfixes=1
+gpgkey=https://mirror.realcompute.io/mariadb/yum/RPM-GPG-KEY-MariaDB
+gpgcheck=1
