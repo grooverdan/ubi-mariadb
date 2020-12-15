@@ -1,4 +1,4 @@
-FROM ubi8
+FROM registry.access.redhat.com/ubi8
 
 RUN groupadd -r mysql && useradd -r -g mysql mysql
 COPY MariaDB.repo /etc/yum.repos.d/
